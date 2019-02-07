@@ -1,7 +1,7 @@
 class RepositoriesController < ApplicationController
 
   def search
-
+    render 'search'
   end
 
   def github_search
